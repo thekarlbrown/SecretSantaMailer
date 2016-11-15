@@ -1,0 +1,9 @@
+karlbrownthinks@gmail.com
+karlbrownthinks@example1.com
+*
+karlbrownthinks@example1.com
+karlbrownthinks@gmail.com
+*
+karlbrownthinks@example2.com
+*
+karlbrownthinks@example3.com
