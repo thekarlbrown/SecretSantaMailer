@@ -12,3 +12,9 @@ test@gmail.com
 *
 
 means that karlbrownthinks@gmail.com cannot match with test@gmail.com
+
+There also must be a SMTP and TLS enabled email server and account provided. This is passed in via the command line. 
+
+An email account (karlbrownthinks@gmail.com), password (FAKEpass123), server (smtp.gmail.com), and port (587) must be provided.
+
+If you are using Gmail, you will need to enable access for less secure apps: https://www.google.com/settings/security/lesssecureapps
