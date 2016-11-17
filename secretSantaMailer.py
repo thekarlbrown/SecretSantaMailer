@@ -12,6 +12,8 @@ with open('emailList.txt', 'r') as inputFromFile:
 	emailArray = []
 	emailArray.append([])
 	arrayPosition = 0
+	
+	# Iterate over each line in the email list and alter our emailArray based on if there is an email or a separator
 	for line in inputFromFile:
 		if line == '*\n':
 			arrayPosition += 1
@@ -39,6 +41,7 @@ while (len(remainingNames) > 0):
 	while (randomChoice in emailArray[arrayPosition]):
 		randomChoice = random.choice(remainingNames)
 	
+	# Remove the valid choice from the matching list and add it to a list that pairs with our prioritized names
 	matchingList.append(randomChoice)
 	remainingNames.remove(randomChoice)
 	arrayPosition += 1
