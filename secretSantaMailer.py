@@ -58,4 +58,3 @@ mailer.login(emailAddressToUse, emailAddressPassword)
 # Iterate over the list of emails and actually send the emails
 for email in prioritizedNames:
 	mailer.sendmail(emailAddressToUse, email, "The individual that you need to give a gift to is " + matchingList[prioritizedNames.index(email)])
-	print ("Secret Santa " + email + " gives a gift to " + matchingList[prioritizedNames.index(email)])
