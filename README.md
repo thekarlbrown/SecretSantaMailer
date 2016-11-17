@@ -6,7 +6,9 @@ The format that the emails need to be added in is listed in the supplied emailLi
 Example:
 
 karlbrownthinks@gmail.com
+
 test@gmail.com
+
 *
 
 means that karlbrownthinks@gmail.com cannot match with test@gmail.com
