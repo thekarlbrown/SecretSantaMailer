@@ -47,7 +47,7 @@ while (len(remainingNames) > 0):
 	arrayPosition += 1
 	
 # Print out the list of successful pairs
-print("Provide a TLS and SMTP enabled email account, password, server, and port to use to mail. If you are using email, you will need to enable access for less secure apps: https://www.google.com/settings/security/lesssecureapps \n\r")
+print("Provide a TLS and SMTP enabled email account (karlbrownthinks@gmail.com), password (FAKEpass123), server (smtp.gmail.com), and port (587) to use to send the emails. If you are using Gmail, you will need to enable access for less secure apps: https://www.google.com/settings/security/lesssecureapps \n\r")
 emailAddressToUse = input("Email Address to Use: ")
 emailAddressPassword = input("Email Password to Use: ")
 emailServer = input("SMTP/TLS Enabled Server to Use: ")
