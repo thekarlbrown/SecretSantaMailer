@@ -1,8 +1,9 @@
+# Secret Santa SMTP Emailer
+# By Karl Brown (www.thekarlbrown.com) 11/16/2016
+
 import sys
 import random
 import smtplib
-
-#By Karl Brown (www.thekarlbrown.com) 11/16/2016
 
 # Open up our email list and convert it into a 2-dimensional array
 # Note that any email past the first is an email that cannot be matched as a secret Santa
@@ -37,6 +38,7 @@ while (len(remainingNames) > 0):
 	# Make sure the selected match is not in the list of email restrictions
 	while (randomChoice in emailArray[arrayPosition]):
 		randomChoice = random.choice(remainingNames)
+	
 	matchingList.append(randomChoice)
 	remainingNames.remove(randomChoice)
 	arrayPosition += 1
